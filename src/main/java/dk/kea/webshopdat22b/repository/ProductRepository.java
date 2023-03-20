@@ -11,9 +11,9 @@ import java.util.List;
 public class ProductRepository {
 
     //database-properties
-    private final String DB_URL = "jdbc:mysql://localhost:3306/webshopdat22b";
-    private final String UID = "root";
-    private final String PWD = "qJiw03K2zwJD";
+    private final String DB_URL = "jdbc:mysql://ahmamysql.mysql.database.azure.com:3306/webshopdat22b";
+    private final String UID = "ahma";
+    private final String PWD = "K4yld9s#";
 
     public List<Product> getAll(){
         List<Product> productList = new ArrayList<>();
